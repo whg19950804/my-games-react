@@ -1,0 +1,20 @@
+.App {
+    .map-box {
+        width: 600px;
+        height: 600px;
+        margin: 0 auto;
+        .map-item-y {
+            display: flex;
+            height: 60px;
+            border: 1px solid #666;
+        }
+        .map-item-x {
+            width: 60px;
+            height: 60px;
+            border: 1px solid #666;
+            &.active-x {
+                background-color: red;
+            }
+        }
+    }
+}
